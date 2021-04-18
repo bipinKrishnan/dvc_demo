@@ -39,3 +39,12 @@ $ dvc checkout
 ```
 
 This downloads the dataset used in the last commit
+
+### Download dvc stored data from git repo
+```
+dvc get <repo_url> <file_name>
+```
+Example,
+```
+dvc get https://github.com/bipinKrishnan/dvc_demo data.csv
+```
