@@ -29,7 +29,7 @@ git push
 ```
 git checkout HEAD^1 <filename>
 ```
-HEAD^1 to go back to 1 commit, HEAD^2 to go back 2 commit and so on and HEAD^0 to revert back to the latest commit
+HEAD^1 go backs to 1 commit, HEAD^2 to go backs 2 commits and so on and HEAD^0 to revert back to the latest commit
 <filename> --> the commit will go back to the changes made to this file only
   
 For dvc run the following command to get the previous model/data
