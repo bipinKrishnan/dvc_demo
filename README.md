@@ -67,3 +67,5 @@ stages:
     outs:
       - outputs
 ```
+
+2. Run ```dvc repro```
