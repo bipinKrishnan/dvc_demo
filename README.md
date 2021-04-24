@@ -69,3 +69,16 @@ stages:
 ```
 
 2. Run ```dvc repro```
+
+### Inspecting the parameters
+1. Show the current values of params
+
+```bash 
+dvc metrics show
+```
+
+2. Show difference between old and new values
+
+```bash
+dvc metrics diff
+```

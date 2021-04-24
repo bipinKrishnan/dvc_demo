@@ -4,19 +4,25 @@ stages:
     cmd: python3 test_1.py
     deps:
     - path: test_1.py
-      md5: 5a8b2dc490067ff379bc8ba287f74136
-      size: 139
+      md5: e726920d90991ec4b2bd210b9fa16df1
+      size: 253
     outs:
     - path: data/test_1.csv
-      md5: b455c96e547c2c5dc9e7fcee73c26a87
+      md5: 898efdc19b5bf13bf2eb6d62b5157779
       size: 236
+    - path: reports/params_1.json
+      md5: 69e1ddf55219effaa8018d2e70a57a55
+      size: 19
   test_stage_2:
     cmd: python3 test_2.py
     deps:
     - path: test_2.py
-      md5: 229d1dbc43fb861fca8a2feb9419e156
-      size: 139
+      md5: 65966838b13ffdddf6b93b5a0cbc899a
+      size: 254
     outs:
     - path: data/test_2.csv
-      md5: 4b3a8c2887b258a03aeaa45cf7b2f70f
-      size: 240
+      md5: a1eb428024d6955133d7e2cd43de2383
+      size: 241
+    - path: reports/params_2.json
+      md5: d459881f49f8b414b2157e42013f45ae
+      size: 20
