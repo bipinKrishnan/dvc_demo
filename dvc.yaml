@@ -1,0 +1,14 @@
+stages:
+  test_stage_1:
+    cmd: python3 test_1.py
+    deps:
+      - test_1.py
+    outs:
+      - data/test_1.csv
+
+  test_stage_2:
+    cmd: python3 test_2.py
+    deps:
+      - test_2.py
+    outs:
+      - data/test_2.csv

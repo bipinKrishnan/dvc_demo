@@ -1,0 +1,22 @@
+schema: '2.0'
+stages:
+  test_stage_1:
+    cmd: python3 test_1.py
+    deps:
+    - path: test_1.py
+      md5: 5a8b2dc490067ff379bc8ba287f74136
+      size: 139
+    outs:
+    - path: data/test_1.csv
+      md5: b455c96e547c2c5dc9e7fcee73c26a87
+      size: 236
+  test_stage_2:
+    cmd: python3 test_2.py
+    deps:
+    - path: test_2.py
+      md5: 229d1dbc43fb861fca8a2feb9419e156
+      size: 139
+    outs:
+    - path: data/test_2.csv
+      md5: 4b3a8c2887b258a03aeaa45cf7b2f70f
+      size: 240
