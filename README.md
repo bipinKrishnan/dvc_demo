@@ -48,3 +48,22 @@ Example,
 ```
 dvc get https://github.com/bipinKrishnan/dvc_demo data.csv
 ```
+
+### Reproduce pipelines with DVC
+1. Create dvc.yaml with following format
+```
+stages:
+  stage_one_name:
+    cmd: <command to run>
+    deps:
+      - dependencies
+    outs:
+      - outputs
+
+  stage_two_name:
+    cmd: <command to run>
+    deps:
+      - dependencies
+    outs:
+      - outputs
+```
