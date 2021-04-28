@@ -70,6 +70,12 @@ stages:
 
 2. Run ```dvc repro```
 
+3. Visulaize the whole pipeline
+
+```bash
+dvc dag
+```
+
 ### Inspecting the parameters
 1. Show the current values of params
 
@@ -82,3 +88,16 @@ dvc metrics show
 ```bash
 dvc metrics diff
 ```
+
+3. List all the files tracked by dvc
+
+```bash
+dvc list
+```
+
+4. Get a file tracked by dvc from a repo
+
+```bash
+dvc get <repo url> <file name>
+```
+You can also use ```dvc import ``` instead of ```dvc get```
