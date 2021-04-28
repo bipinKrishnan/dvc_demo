@@ -101,3 +101,11 @@ dvc list
 dvc get <repo url> <file name>
 ```
 You can also use ```dvc import ``` instead of ```dvc get```
+
+### Skipping a stage in the pipeline
+
+1. Freeze the pipeline using ```dvc freeze <stage name>```  to skip it during ```dvc repro```
+
+2. Unfreeze to to include it during ```dvc repro```
+
+```dvc unfreeze <stage name>``` 
