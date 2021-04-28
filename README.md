@@ -76,7 +76,7 @@ stages:
 dvc stage list
 ```
 
-4. Visulaize the whole pipeline
+4. Visulize the whole pipeline
 
 ```bash
 dvc dag
