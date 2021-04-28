@@ -70,7 +70,13 @@ stages:
 
 2. Run ```dvc repro```
 
-3. Visulaize the whole pipeline
+3. List all the stages
+
+```bash
+dvc stage list
+```
+
+4. Visulaize the whole pipeline
 
 ```bash
 dvc dag
@@ -108,4 +114,6 @@ You can also use ```dvc import ``` instead of ```dvc get```
 
 2. Unfreeze to to include it during ```dvc repro```
 
-```dvc unfreeze <stage name>``` 
+```bash
+dvc unfreeze <stage name>
+``` 
